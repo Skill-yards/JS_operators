@@ -1,8 +1,4 @@
-# JS_operators
 
-Here are some JavaScript operator-related questions that you can add to your GitHub README file for student practice. The questions cover arithmetic, comparison, logical, and assignment operators.
-
-```markdown
 # JavaScript Operators Practice
 
 ### Instructions:
@@ -107,8 +103,5 @@ console.log(result);
 ```
 
 ---
-
-Good luck! Don't forget to commit and push your changes once you're done!
 ```
 
-These questions will help students practice JavaScript operators while following a structured format in GitHub.
