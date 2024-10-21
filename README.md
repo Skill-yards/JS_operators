@@ -102,6 +102,137 @@ console.log(result);
 // Expected output: ?
 ```
 
----
+
+
+### 7. Increment and Decrement Operators
+
+Create a program that initializes a variable `count` with the value `10`. Perform the following operations using increment (`++`) and decrement (`--`) operators. Log the results after each operation:
+
+- Pre-increment the variable and log the value.
+- Post-increment the variable and log the value.
+- Pre-decrement the variable and log the value.
+- Post-decrement the variable and log the value.
+
+```js
+// Example
+let count = 10;
+console.log(++count); // Pre-increment: Expected output: 11
+console.log(count++); // Post-increment: Expected output: 11
 ```
+
+---
+
+### 8. Bitwise Operators
+
+Use the bitwise operators (`&`, `|`, `^`, `~`, `<<`, `>>`, `>>>`) to perform the following tasks. Log the results:
+
+- Perform a bitwise AND on `5` and `3`.
+- Perform a bitwise OR on `7` and `2`.
+- Perform a bitwise XOR on `12` and `6`.
+- Use the NOT operator on `9`.
+- Left shift the value `3` by 2 positions.
+- Right shift the value `10` by 1 position.
+- Zero-fill right shift the value `-5` by 2 positions.
+
+```js
+// Example
+console.log(5 & 3); // Expected output: 1 (bitwise AND)
+```
+
+---
+
+### 9. Compound Logical Operators
+
+Given the following variables:
+
+```js
+let a = true;
+let b = false;
+let c = true;
+```
+
+Evaluate the following compound logical expressions and log the results:
+
+- `a && b || c`
+- `(a || b) && !c`
+- `a && (b || c) && !b`
+- `!a || !b || !c`
+
+Explain the reasoning behind the results based on operator precedence.
+
+---
+
+### 10. Combining Different Operators
+
+Write a program that combines arithmetic, comparison, logical, and assignment operators in a single expression. Evaluate and log the result of the following expression:
+
+```js
+let x = 5;
+let y = 10;
+let result = (x + y * 2 > 20) && (x += 5) || (y -= 3);
+console.log(result); 
+// Expected output: ?
+```
+
+Break down the expression step by step and explain the final result.
+
+---
+
+### 11. Optional Challenge: Complex Ternary Operators
+
+Given a number `n`, write a program that uses nested ternary operators to evaluate and print:
+
+- `"Positive"` if the number is greater than 0.
+- `"Negative"` if the number is less than 0.
+- `"Zero"` if the number is equal to 0.
+
+```js
+let n = -3;
+// Example
+let result = n > 0 ? "Positive" : (n < 0 ? "Negative" : "Zero");
+console.log(result); // Expected output: Negative
+```
+
+---
+
+### 12. Optional Challenge: Operator Puzzle
+
+Solve the following operator puzzle. Can you predict the final values of `x` and `y`?
+
+```js
+let x = 3;
+let y = x++ + ++x + --x + x-- - x;
+console.log(x, y); 
+// Expected output: ?
+```
+
+Explain how each operator is applied and why the final values of `x` and `y` are what they are.
+
+---
+
+### 13. Optional Challenge: Short-circuit Evaluation
+
+Consider the following variables:
+
+```js
+let isLoggedIn = false;
+let isAdmin = true;
+```
+
+Write a program that uses short-circuit evaluation to log the following:
+
+- `"Access granted"` if the user is logged in and is an admin.
+- `"Limited access"` if the user is logged in but is not an admin.
+- `"No access"` if the user is not logged in.
+
+Test with different combinations of `isLoggedIn` and `isAdmin`.
+
+```js
+// Example
+let accessMessage = isLoggedIn && isAdmin ? "Access granted" : (isLoggedIn ? "Limited access" : "No access");
+console.log(accessMessage); // Expected output: "No access"
+```
+
+---
+
 
